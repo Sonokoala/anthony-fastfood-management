@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $_SESSION['last_activity'] = time();
                     
                     // 絶対URLでリダイレクト
-                    $redirect = $_SESSION['redirect_after_login'] ?? '/anthonyfastfood/part2/home.php';
+                    $redirect = $_SESSION['redirect_after_login'] ?? 'home.php';
                     unset($_SESSION['redirect_after_login']);
                     header("Location: " . $redirect);
                     exit;

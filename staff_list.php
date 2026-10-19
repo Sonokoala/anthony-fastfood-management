@@ -71,7 +71,7 @@ $staff_list = $result->fetch_all(MYSQLI_ASSOC);
         <?php endif; ?>
 
         <div class="mt-4">
-            <a href="/anthonyfastfood/index.php" class="btn btn-secondary">
+            <a href="index.php" class="btn btn-secondary">
                 <i class="bi bi-arrow-left"></i> Back to Dashboard
             </a>
         </div>
